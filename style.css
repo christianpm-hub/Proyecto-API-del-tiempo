@@ -12,11 +12,12 @@ body{
 img{
     padding-left: 33%;
     width: 35%;
+    padding-top: 5%;
 }
 
 .main-cta{
     padding-top: 5%;
-    padding-left: 40%;
+    padding-left: 38%;
 }
 
 .main-cta input{
@@ -33,6 +34,8 @@ img{
 .main-cta div{
     padding-top: 10%;
     padding-left: 15%;
+    display: flex;
+    align-items: center;
 }
 
 .main-cta button{
@@ -46,13 +49,9 @@ img{
     background-color: #005AAE;
     border-radius: 10px;
     transition: 0.5s ;
+    border: none;
 }
 
 .main-cta button:hover{
     transform: scale(1.1);
-}
-
-.main-cta #resultado{
-    background-color: black;
-    border-radius: 10px;
 }
