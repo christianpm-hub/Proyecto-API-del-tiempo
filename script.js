@@ -51,7 +51,7 @@ function cambiarFondo(codigo) {
         fondo = "url(nivel90.jpg)";
     }
     else {
-        fondo = "linear-gradient(to right, #4facfe, #00f2fe)";
+        fondo = "url(nivel5155.jpg)";
     }
 
     document.body.style.background = fondo;
